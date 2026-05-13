@@ -1,41 +1,36 @@
-# PRINCIPIA_OMNIUM — Canonical Version Note
+# PRINCIPIA OMNIUM UNIVERSALE — Canonical Version Note
 
-## Canonical Source: PRINCIPIA_OMNIUM_Da_Valenca_2026.docx (Drive, 3.07MB)
+**Richard Steven Vallance (Da Valenca)** | Da Valenca Leonardo Project | 2026
 
-The canonical version of the Principia Omnium Universale is held in Google Drive as:
+## Canonical File
 
-- `PRINCIPIA_OMNIUM_Da_Valenca_2026.docx` (3,075,530 bytes) — **canonical**
-- `PRINCIPIA_OMNIUM_Doctoral_Complete_RSV_2026.docx` (3,070,434 bytes) — review vs canonical
-- `PRINCIPIA_OMNIUM_FINAL_COMPLETE_RSV_2026.docx` (3,068,326 bytes) — earlier final
+The canonical version of *Principia Omnium Universale: Leonardo da Vinci's Architecture of Reality* is:
 
-The 3.07MB file is the largest and most recently saved. It represents the complete
-Principia Omnium Universale with full chapters, embedded images, footnotes,
-and claim register (PC-001 to PC-030).
+- **File:** `PRINCIPIA_OMNIUM_Da_Valenca_2026.docx`
+- **Drive ID:** `1NGb8cdPf4ylcmv2f87CSx2qbsVzostbx`
+- **Size:** 3.07 MB (includes embedded images)
+- **Word count:** ~30,000 words
 
-## Superseded Versions (do not deposit)
+## Ecosystem Placement
 
-- PRINCIPIA_OMNIUM_COMPLETE_80K_PLUS.docx (646KB) — 80K word draft
-- PRINCIPIA_OMNIUM_FINAL_80K.docx (564KB) — superseded
-- PRINCIPIA_OMNIUM_COMPLETE_SINGLE_FILE.docx (515KB) — superseded
-- PRINCIPIA_OMNIUM_COMPLETE_80K.docx (505KB) — superseded
-- Principia_Omnium_Universale_RSV_2026.docx (42KB) — earliest draft
+This document belongs to **Ecosystem A (Da Vinci / Da Valenca)**, not Ecosystem B (USC/Soyga). It is a Madrid Codex II primary-source analysis with BNE folio citations throughout. It serves as the bridge between Madrid Codex I (mechanica) and the broader universal architecture thesis.
 
-## Binary Upload Status
+**This is a Da Vinci document, not a USC document.**
 
-The 3.07MB docx exceeds practical GitHub API upload limits for this session.
-Direct deposit to this repository is pending a subsequent session where the
-binary can be uploaded via Drive download → GitHub git blob API.
+## Version History
 
-## What This Document Is
+| File | Size | Status |
+|---|---|---|
+| `PRINCIPIA_OMNIUM_Da_Valenca_2026.docx` (Drive) | 3.07 MB | CANONICAL — with embedded images |
+| `Da Vincli Corpus.docx` (Drive) | 1.5 MB | Earlier version, same content, no images |
+| `Principia_Omnium_Universale_RSV_2026.docx` | 42 KB | Earliest draft, superseded |
 
-The Principia Omnium Universale is a Da Vinci document, not a USC document.
-It is grounded in Madrid Codex II (BNE MS 8936) primary source analysis
-with direct BNE folio citations throughout.
+## Primary Source Basis
 
-**It belongs in Ecosystem A (da-vinci-mechanica ecosystem), not Ecosystem B (USC).**
+All folio analysis draws directly on Madrid Codex II (BNE MS 8936) — BNE Interactivo digital archive transcription images, read and extracted for this study in 2026.
 
-It serves as the bridge between Madrid Codex I (mechanical spine) and
-Madrid Codex II (universal architecture), connecting mechanical engineering
-to philosophical synthesis through primary source evidence.
+## DOI
 
-© 2026 Richard Steven Vallance. All Intellectual Property Reserved.
+Not yet released. Pending final review decision.
+
+© 2026 Richard Steven Vallance. All intellectual property reserved.
