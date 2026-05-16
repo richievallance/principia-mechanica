@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <defs>
+    <radialGradient id="cosmicBg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1a2a4a"/>
+      <stop offset="60%" stop-color="#0d1a30"/>
+      <stop offset="100%" stop-color="#060d18"/>
+    </radialGradient>
+    <radialGradient id="vortexGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4a7ab5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4a7ab5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c8a200" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c8a200" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Cosmic background -->
+  <rect width="800" height="1100" fill="url(#cosmicBg)"/>
+
+  <!-- Star field -->
+  <g fill="white" opacity="0.6">
+    <circle cx="120" cy="80" r="1"/><circle cx="340" cy="45" r="1.5"/>
+    <circle cx="620" cy="90" r="1"/><circle cx="720" cy="130" r="1"/>
+    <circle cx="60" cy="200" r="1"/><circle cx="750" cy="250" r="1.5"/>
+    <circle cx="150" cy="350" r="1"/><circle cx="680" cy="180" r="1"/>
+    <circle cx="200" cy="500" r="1"/><circle cx="730" cy="450" r="1"/>
+    <circle cx="80" cy="600" r="1.5"/><circle cx="710" cy="600" r="1"/>
+    <circle cx="100" cy="750" r="1"/><circle cx="690" cy="720" r="1"/>
+  </g>
+
+  <!-- Vortex system — concentric ellipses -->
+  <ellipse cx="400" cy="390" rx="280" ry="80" fill="none" stroke="#4a7ab5" stroke-width="1.5" opacity="0.3" transform="rotate(-15 400 390)"/>
+  <ellipse cx="400" cy="390" rx="220" ry="60" fill="none" stroke="#4a7ab5" stroke-width="1.5" opacity="0.4" transform="rotate(-10 400 390)"/>
+  <ellipse cx="400" cy="390" rx="160" ry="45" fill="none" stroke="#6a9ad5" stroke-width="2" opacity="0.5" transform="rotate(-5 400 390)"/>
+  <ellipse cx="400" cy="390" rx="100" ry="30" fill="none" stroke="#8ab5e0" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="400" cy="390" rx="50" ry="15" fill="none" stroke="#aad0f0" stroke-width="2" opacity="0.7"/>
+
+  <!-- Orrery rings -->
+  <circle cx="400" cy="390" r="280" fill="none" stroke="#4a7ab5" stroke-width="1" stroke-dasharray="6,12" opacity="0.25"/>
+  <circle cx="400" cy="390" r="200" fill="none" stroke="#4a7ab5" stroke-width="1" stroke-dasharray="4,8" opacity="0.3"/>
+  <circle cx="400" cy="390" r="130" fill="none" stroke="#6a9ad5" stroke-width="1" stroke-dasharray="3,6" opacity="0.4"/>
+
+  <!-- Four elements symbols -->
+  <!-- Fire — top -->
+  <polygon points="400,140 370,190 430,190" fill="none" stroke="#c8a200" stroke-width="2" opacity="0.7"/>
+  <!-- Water — right -->
+  <polygon points="590,390 560,340 620,340" fill="none" stroke="#4a7ab5" stroke-width="2" opacity="0.7" transform="rotate(180 590 390)"/>
+  <!-- Earth — bottom -->
+  <polygon points="400,580 370,530 430,530" fill="none" stroke="#6b8c4a" stroke-width="2" opacity="0.7" transform="rotate(180 400 580)"/>
+  <!-- Air — left -->
+  <polygon points="210,390 240,340 180,340" fill="none" stroke="#b0c8e0" stroke-width="2" opacity="0.7"/>
+
+  <!-- Central gold point -->
+  <circle cx="400" cy="390" r="8" fill="url(#goldGlow)"/>
+  <circle cx="400" cy="390" r="4" fill="#c8a200"/>
+
+  <!-- Vortex spiral lines -->
+  <path d="M400,390 Q440,360 460,320 Q480,280 450,250 Q420,220 390,240" fill="none" stroke="#4a7ab5" stroke-width="1.5" opacity="0.5"/>
+  <path d="M400,390 Q360,360 340,320 Q320,280 350,250 Q380,220 410,240" fill="none" stroke="#4a7ab5" stroke-width="1.5" opacity="0.5"/>
+  <path d="M400,390 Q430,430 460,460 Q490,490 480,530" fill="none" stroke="#4a7ab5" stroke-width="1.5" opacity="0.4"/>
+  <path d="M400,390 Q370,430 340,460 Q310,490 320,530" fill="none" stroke="#4a7ab5" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Planetary positions -->
+  <circle cx="400" cy="200" r="8" fill="#c8a200" opacity="0.8"/>
+  <circle cx="570" cy="290" r="6" fill="#a0b8d0" opacity="0.7"/>
+  <circle cx="570" cy="490" r="10" fill="#b06020" opacity="0.7"/>
+  <circle cx="400" cy="580" r="7" fill="#c0a030" opacity="0.6"/>
+  <circle cx="230" cy="390" r="5" fill="#e0e0f0" opacity="0.7"/>
+
+  <!-- Gold border frame -->
+  <rect x="20" y="20" width="760" height="1060" fill="none" stroke="#c8a200" stroke-width="2" opacity="0.6"/>
+  <rect x="26" y="26" width="748" height="1048" fill="none" stroke="#c8a200" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Top rule -->
+  <line x1="60" y1="640" x2="740" y2="640" stroke="#c8a200" stroke-width="1" opacity="0.7"/>
+
+  <!-- Title -->
+  <text x="400" y="685" font-family="Georgia, serif" font-size="38" fill="#c8a200" text-anchor="middle" font-weight="bold" letter-spacing="2">PRINCIPIA</text>
+  <text x="400" y="730" font-family="Georgia, serif" font-size="28" fill="#c8a200" text-anchor="middle" letter-spacing="4">OMNIUM UNIVERSALE</text>
+  
+  <line x1="100" y1="750" x2="700" y2="750" stroke="#c8a200" stroke-width="0.5" opacity="0.5"/>
+  
+  <text x="400" y="785" font-family="Georgia, serif" font-size="15" fill="#8ab5e0" text-anchor="middle" font-style="italic">Leonardo's Universal Architecture of Motion, Medium and Form</text>
+  <text x="400" y="812" font-family="Georgia, serif" font-size="13" fill="#6a9ad5" text-anchor="middle" letter-spacing="2">Corpus Leonardianum Universale</text>
+
+  <!-- Author -->
+  <line x1="200" y1="890" x2="600" y2="890" stroke="#c8a200" stroke-width="0.5" opacity="0.4"/>
+  <text x="400" y="924" font-family="Georgia, serif" font-size="15" fill="#c8d8e8" text-anchor="middle">Richard Steven Vallance</text>
+  <text x="400" y="948" font-family="Georgia, serif" font-size="12" fill="#6a9ad5" text-anchor="middle">The People Focused Group · Doncaster, UK · 2026</text>
+
+  <!-- Bottom -->
+  <text x="400" y="1058" font-family="Georgia, serif" font-size="10" fill="#c8a200" text-anchor="middle" letter-spacing="3" opacity="0.6">© 2026 RICHARD STEVEN VALLANCE</text>
+</svg>
