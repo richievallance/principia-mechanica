@@ -1,12 +1,39 @@
 {
-  "title": "Principia Omnium Universale: Leonardo da Vinci's Universal Architecture of Motion, Medium and Form",
-  "description": "Complete doctoral thesis reconstructing the universal mechanical and philosophical architecture of Leonardo da Vinci across the Madrid Codices, Codex Atlanticus, and related manuscripts.",
-  "creators": [{"name": "Vallance, Richard Steven", "affiliation": "The People Focused Group, Doncaster, UK"}],
-  "keywords": ["Leonardo da Vinci", "Madrid Codices", "Renaissance engineering", "Mechanical philosophy", "Corpus Leonardianum"],
+  "title": "Principia Omnium Universale: Leonardo's Universal Architecture of Motion, Medium and Form",
+  "description": "Doctoral-scale thesis reconstructing the universal mechanical and philosophical architecture of Leonardo da Vinci across the Madrid Codices and Codex Atlanticus. Unifies engineering precision with natural philosophy under the governing formula Grammatica Naturae, Lex Motus, et Ars Vivens.",
+  "creators": [
+    {
+      "name": "Vallance, Richard Steven",
+      "affiliation": "The People Focused Group, Doncaster, UK"
+    }
+  ],
+  "keywords": [
+    "Leonardo da Vinci",
+    "Madrid Codices",
+    "universal architecture",
+    "motion",
+    "medium",
+    "form",
+    "Renaissance natural philosophy",
+    "Corpus Leonardianum"
+  ],
   "license": "cc-by-4.0",
   "upload_type": "publication",
   "publication_type": "thesis",
   "language": "eng",
   "version": "0.3",
-  "notes": "Pre-publication draft. DOI pending explicit release instruction."
+  "publication_date": "2026-05-16",
+  "notes": "Pre-publication draft. DOI pending explicit release instruction from Richard Steven Vallance.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/richievallance/corpus-leonardianum",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/richievallance/da-vinci-ultimatium",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
 }
