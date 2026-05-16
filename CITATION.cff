@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: Vallance
+    given-names: Richard Steven
+    affiliation: "The People Focused Group, Doncaster, UK"
+title: "Principia Omnium Universale: Leonardo da Vinci's Universal Architecture of Motion, Medium and Form"
+version: "0.3"
+date-released: "2026-05-16"
+url: "https://github.com/richievallance/principia-mechanica"
+license: CC-BY-4.0
+keywords:
+  - Leonardo da Vinci
+  - Madrid Codices
+  - Renaissance engineering
+  - Mechanical philosophy
+  - Universal architecture
+  - Corpus Leonardianum
